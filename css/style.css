@@ -1,0 +1,51 @@
+body {
+    background-color: #1a1a1d; /* Тёмно-серый фон */
+    color: #ffffff; /* Белый цвет текста */
+    font-family: 'Arial', sans-serif; /* Установка шрифта */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ffcc00; /* Жёлтый цвет для заголовка */
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ffcc00; /* Жёлтая рамка */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #000;
+    background-color: #f9f9f9; /* Светлый фон */
+}
+
+button {
+    background-color: #ffcc00; /* Жёлтый фон кнопки */
+    color: #000; /* Чёрный текст */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b800; /* Тёмно-жёлтый при наведении */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffcc00; /* Жёлтый цвет результата */
+}
